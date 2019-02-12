@@ -49,7 +49,7 @@ public class MealTestData {
     }
 
     public static ResultMatcher getToMatcher(MealTo... expected) {
-        return getToMatcher(List.of(expected));
+        return getToMatcher(Arrays.asList(expected));
     }
 
     public static ResultMatcher getToMatcher(Iterable<MealTo> expected) {
